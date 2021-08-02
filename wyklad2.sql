@@ -83,6 +83,7 @@ from Orders
 select 2+2 as 'wyr1', 3+5 as 'wyr2'
 select GETDATE() as 'teraz', GETDATE()+1 as 'jutro'
 select GETDATE() -97900
+select GETDATE()
 
 -- ile jest zamówień poszczególnych rodzajów
 
